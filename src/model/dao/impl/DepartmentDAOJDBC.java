@@ -18,7 +18,7 @@ public class DepartmentDAOJDBC implements DepartmentDao {
     }
 
     @Override
-    public Department findyById(Integer id) {
+    public Department findById(Integer id) {
         PreparedStatement st = null;
         ResultSet rs = null;
         try {
